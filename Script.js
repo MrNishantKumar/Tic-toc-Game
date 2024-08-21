@@ -88,9 +88,9 @@ resetBtn.addEventListener("click",resetGame);
 
 const resetColor = () => {
     boxes.forEach(box => {
-      box.style.transform = "none"; // Reset rotation
+      // box.style.transform = "none"; // Reset rotation
       box.style.backgroundColor = ""; // Reset color
-      isRotated = false; // Reset rotation flag
+      // isRotated = false; // Reset rotation flag
     });
   };
 
