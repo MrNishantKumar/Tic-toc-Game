@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #7880b5;
+    text-align: center;
+}
+h1{
+    text-shadow: 10px 10px 20px rgba(0,0,0,0.7); 
+}
+ .container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+    
+   
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+ height: 18vmin;
+width: 18vmin;
+border-radius: 20px;
+border: none;
+font-size: 10vmin;
+color: #169df1;
+background-color: rgb(191, 242, 246);
+box-shadow: 10px 10px 20px rgba(0,0,0,0.7);
+} 
+.box:hover{
+    cursor: pointer;
+   rotate: 45;
+}
+
+#reset-button{
+    background-color: #C0A9B0;
+    padding: 1.5vh;
+    border-radius: 6px;
+    font-size: 3vh;
+    border: none;
+    box-shadow: 5px 5px 20px rgba(255, 67, 67, 0.7);
+}
+.hide{
+    display: none;
+}
+
+.msg-container{
+margin: 1vh;
+}
+#new-button{
+    background-color: #C0A9B0;
+    padding: 1.5vh;
+    margin: 1vh;
+    margin-bottom: 0px;
+    border-radius: 6px;
+    font-size: 3vh;
+    border: none;
+    box-shadow: 5px 5px 20px  rgba(255, 67, 67, 0.7);
+}
+#msg{ 
+  font-size: 5vh;
+  text-shadow: 10px 10px 20px rgba(0,0,0,0.7);
+}
+button:hover{
+cursor: pointer;
+}
